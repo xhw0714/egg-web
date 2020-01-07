@@ -1,0 +1,3 @@
+2020-01-07 04:30:00,002 INFO 3094 [Timer] /www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86399999ms at 2020-01-08 04:30:00.001
+2020-01-07 04:30:00,002 INFO 3189 [Job#1578342600001117183525351774514] /www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-01-07 04:30:00,003 INFO 3189 [Job#1578342600001117183525351774514] /www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 1ms

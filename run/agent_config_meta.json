@@ -1,0 +1,323 @@
+{
+  "view": {
+    "cache": "/www/wwwroot/moto/node_modules/egg-view/config/config.local.js",
+    "defaultViewEngine": "/www/wwwroot/moto/config/config.default.js",
+    "mapping": {
+      ".html": "/www/wwwroot/moto/config/config.default.js"
+    },
+    "root": "/www/wwwroot/moto/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/www/wwwroot/moto/node_modules/egg-view/config/config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "/www/wwwroot/moto/config/config.default.js",
+      "port": "/www/wwwroot/moto/config/config.default.js",
+      "user": "/www/wwwroot/moto/config/config.default.js",
+      "password": "/www/wwwroot/moto/config/config.default.js",
+      "database": "/www/wwwroot/moto/config/config.default.js"
+    },
+    "app": "/www/wwwroot/moto/config/config.default.js",
+    "agent": "/www/wwwroot/moto/config/config.default.js",
+    "default": {
+      "database": "/www/wwwroot/moto/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/www/wwwroot/moto/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/www/wwwroot/moto/config/config.default.js",
+      "type": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "useSession": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "headerName": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "queryName": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "value": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "value": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "value": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "policy": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "keys": "/www/wwwroot/moto/config/config.default.js",
+  "middleware": "/www/wwwroot/moto/config/config.default.js",
+  "session": {
+    "maxAge": "/www/wwwroot/moto/node_modules/egg-session/config/config.default.js",
+    "key": "/www/wwwroot/moto/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/www/wwwroot/moto/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/www/wwwroot/moto/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/www/wwwroot/moto/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/www/wwwroot/moto/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/www/wwwroot/moto/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/www/wwwroot/moto/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/www/wwwroot/moto/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/www/wwwroot/moto/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/www/wwwroot/moto/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/www/wwwroot/moto/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/www/wwwroot/moto/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/www/wwwroot/moto/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/www/wwwroot/moto/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/www/wwwroot/moto/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/www/wwwroot/moto/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/www/wwwroot/moto/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/www/wwwroot/moto/node_modules/egg-watcher/config/config.default.js",
+      "development": "/www/wwwroot/moto/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/www/wwwroot/moto/node_modules/egg-schedule/config/config.default.js",
+      "file": "/www/wwwroot/moto/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/www/wwwroot/moto/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "files": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/www/wwwroot/moto/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/www/wwwroot/moto/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/www/wwwroot/moto/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/www/wwwroot/moto/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/www/wwwroot/moto/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/www/wwwroot/moto/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/www/wwwroot/moto/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/www/wwwroot/moto/node_modules/egg-static/config/config.default.js",
+    "dir": "/www/wwwroot/moto/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/www/wwwroot/moto/node_modules/egg-static/config/config.default.js",
+    "preload": "/www/wwwroot/moto/node_modules/egg-static/config/config.default.js",
+    "buffer": "/www/wwwroot/moto/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/www/wwwroot/moto/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/www/wwwroot/moto/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/www/wwwroot/moto/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/www/wwwroot/moto/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/www/wwwroot/moto/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/www/wwwroot/moto/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "name": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "cookies": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "proxy": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "version": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "description": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "private": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "await-stream-ready": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "md5": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "moment": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "autod-egg": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg-bin": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg-ci": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "egg-mock": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "eslint": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "stop": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "dev": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "debug": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "test": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "test-local": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "cov": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "lint": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "ci": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "autod": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "url": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "author": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "license": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "HOME": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "rundir": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "notFound": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "sitefile": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "middlewares": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "httpClient": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "encoding": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "formLimit": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "textLimit": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "strict": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "depth": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "encoding": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "env": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "level": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "outputJSON": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "buffer": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "appLogName": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "coreLogName": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "agentLogName": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "errorLogName": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/www/wwwroot/moto/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "maxSockets": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "maxSockets": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "logging": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "port": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+      "hostname": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/www/wwwroot/moto/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/www/wwwroot/moto/node_modules/egg/config/config.default.js"
+}

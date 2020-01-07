@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.login-box{
+  position: absolute;
+  border: 1px solid #dedede;
+  width: 400px;
+  padding: 20px;
+  left: 50%;
+  margin-left: -200px;
+  top: 200px;
+}
+
+.category{
+  margin-top: 20px;
+}
+/* .category .item p:hover a{
+  display: inline-block;
+} */
+.category .item a{
+  color: #1f5dea;
+  font-size: 12px;
+  margin-left: 10px;
+  /* display: none; */
+}
+
+a{
+  color: #1f5dea;
+}
+
+.header{
+  background-color: #fff;
+  border-bottom: 1px solid #dedede;
+}
+
+.header .main{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header .nav{
+  background-color: #fff;
+  color: #000;
+  vertical-align: middle;
+  display: inline-block;
+}
+.header .nav span {
+  border-color: #000 transparent transparent;
+}
+.header .nav span.layui-nav-mored {
+  border-color: transparent transparent #000;
+}
+.header .nav a {
+  color: #000 ;
+}
+.header .nav a:hover {
+  color: #5FB878 ;
+}
+.header .logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .logo img{
+  height: 60px;
+}
+.layui-card-body img{
+  width: 100%;
+}
+.slideBox .bd img {
+  width: 100%;
+}
+/* .layui-input-block {
+  margin-left: 80px;
+  min-height: 36px;
+} */
+
+.layui-form-label{
+  width: auto;
+}
+.container{
+  width: 1000px ;
+  margin: 0 auto;
+}
+.container .about{
+  text-indent: 20px;
+  line-height: 25px;
+}
+.layui-card{
+  box-shadow: 0px 0px 5px #dedede;
+}
+.layui-card-body img{
+  width: 100%;
+  max-height: 500px;
+}
+
+.footer{
+  box-shadow: 0px 0px 5px #dedede;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+}
+.footer a{
+  color: #333;
+}
+
+.footer .title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer li{
+  font-size: 13px;
+  line-height: 25px;
+}
+.footer .layui-col-md2{
+  text-align: center;
+  min-height: 100px;
+  border-left: 1px solid #dedede;
+}
+.footer .layui-col-md4{
+  min-height: 100px;
+  padding-left: 50px;
+  border-left: 1px solid #dedede;
+}
+
+.footer .layui-col-md4 p{
+  font-size: 13px;
+  line-height: 25px;
+}
+.footer-tip{
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+.about .layui-field-box{
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.box{
+  box-shadow: 0px 0px 5px #dedede;
+}
+.layui-tab-content img{
+  width: 100%;
+}
+.article{
+  
+}
+.article .title{
+  font-size: 24px;
+  text-align: center;
+}
+.article .info{
+  font-size: 12px;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #dedede;
+}
+.article .content{
+  padding: 10px;
+  line-height: 25px;
+}
+.article .content img{
+  width: 100%;
+}

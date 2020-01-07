@@ -1,0 +1,3 @@
+2020-01-07 00:00:01,005 INFO 3189 [egg-logrotator] app logger reload: got log-reload message
+2020-01-07 04:30:00,002 INFO 3189 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/moto"
+2020-01-07 04:30:00,003 INFO 3189 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end

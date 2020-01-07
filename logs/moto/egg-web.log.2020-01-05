@@ -1,0 +1,6 @@
+2020-01-05 00:00:01,006 INFO 3189 [egg-logrotator] app logger reload: got log-reload message
+2020-01-05 04:30:00,004 INFO 3189 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/moto"
+2020-01-05 04:30:00,005 INFO 3189 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-01-06 00:00:00,006 INFO 3189 [egg-logrotator] clean all log before 31 days
+2020-01-06 00:00:01,004 INFO 3189 [egg-logrotator] broadcast log-reload
+2020-01-06 00:00:01,004 INFO 3189 [egg-logrotator] rotate files success by DayRotator, files ["/www/wwwroot/moto/logs/moto/common-error.log -> /www/wwwroot/moto/logs/moto/common-error.log.2020-01-05","/www/wwwroot/moto/logs/moto/moto-web.log -> /www/wwwroot/moto/logs/moto/moto-web.log.2020-01-05","/www/wwwroot/moto/logs/moto/egg-web.log -> /www/wwwroot/moto/logs/moto/egg-web.log.2020-01-05","/www/wwwroot/moto/logs/moto/egg-schedule.log -> /www/wwwroot/moto/logs/moto/egg-schedule.log.2020-01-05","/www/wwwroot/moto/logs/moto/egg-agent.log -> /www/wwwroot/moto/logs/moto/egg-agent.log.2020-01-05"]

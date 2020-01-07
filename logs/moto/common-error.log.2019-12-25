@@ -1,0 +1,15 @@
+2019-12-25 12:22:33,739 ERROR 3189 [-/127.0.0.1/-/14ms GET /produce/15] nodejs.TypeError: Cannot read property 'cid' of null
+    at HomeController.article (/www/wwwroot/moto/app/controller/home.js:52:75)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async checkAuth (/www/wwwroot/moto/app/middleware/nav.js:6:5)
+    at async /www/wwwroot/moto/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/www/wwwroot/moto/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/www/wwwroot/moto/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/www/wwwroot/moto/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/www/wwwroot/moto/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/www/wwwroot/moto/node_modules/koa-session/index.js:41:7)
+
+pid: 3189
+hostname: iZiqo9nqvgckdpZ
+

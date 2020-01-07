@@ -1,0 +1,2010 @@
+2019-12-12 17:49:30,236 ERROR 95700 nodejs.ClusterClientNoResponseError: client no response in 506053ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 95700
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-12 18:16:03,719 ERROR 96393 [-/127.0.0.1/-/7ms GET /admin] nodejs.AssertionError: Can't find admin/login.html from /Users/Shared/Relocated Items/Security/javascripe/moto/app/view
+    at Map.resolve (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:50:22)
+    at async LoginController.login (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/login.js:7:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 96393
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-12 18:16:10,876 ERROR 96393 [-/127.0.0.1/-/1ms GET /admin] nodejs.AssertionError: Can't find admin/login.html from /Users/Shared/Relocated Items/Security/javascripe/moto/app/view
+    at Map.resolve (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:50:22)
+    at async LoginController.login (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/login.js:7:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 96393
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-12 18:21:13,439 ERROR 96429 [-/127.0.0.1/-/12ms GET /admin] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/login.tpl)
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/header.html
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/header.html
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:13:11)
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:295:11)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:282:7)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:329:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 96429
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-12 18:21:16,289 ERROR 96429 [-/127.0.0.1/-/2ms GET /admin] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/login.tpl)
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/header.html
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/header.html
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:13:11)
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:295:11)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:282:7)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:329:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 96429
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-13 14:36:16,493 ERROR 1612 [-/::1/-/21ms POST /admin/login] nodejs.TypeError: this.render is not a function
+    at LoginController.login (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/login.js:19:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1612
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-13 15:09:00,060 ERROR 1763 [-/127.0.0.1/-/5ms GET /admin/index] nodejs.TypeError: Cannot read property 'logger' of undefined
+    at checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:5:14)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:53:56
+
+pid: 1763
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-13 15:09:32,126 ERROR 1774 [-/127.0.0.1/-/4ms GET /admin/index] nodejs.TypeError: Cannot read property 'info' of undefined
+    at checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:5:17)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:53:56
+
+pid: 1774
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-13 16:04:22,921 ERROR 1550 nodejs.ClusterClientNoResponseError: client no response in 1168488ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1550
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-13 17:50:39,840 ERROR 3616 [-/127.0.0.1/-/14ms GET /admin/category] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/cateGory.tpl)
+  unexpected end of file
+  unexpected end of file
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:542:21)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 3616
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 14:35:25,933 ERROR 12804 [-/127.0.0.1/-/10ms GET /admin/category] nodejs.TypeError: Assignment to constant variable.
+    at IndexService.cateGory (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:23:18)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async IndexController.cateGory (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/index.js:10:25)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 12804
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 14:38:00,382 ERROR 12811 [-/127.0.0.1/-/25ms GET /admin/category] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/cateGory.tpl)
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/nav.tpl)
+  RangeError: Maximum call stack size exceeded
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/nav.tpl)
+  RangeError: Maximum call stack size exceeded
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:39:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:575:11
+    at Template.root [as rootRenderFunc] (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:17:3)
+    at Template.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:38:10)
+    at fn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:26:24)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:66:22
+    at executeSync (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:8:15)
+name: "Template render error"
+pid: 12811
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 16:04:32,600 ERROR 9382 nodejs.ClusterClientNoResponseError: client no response in 713756ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9382
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 16:51:21,502 ERROR 14158 [-/127.0.0.1/-/8ms POST /upload?_csrf=_csrf] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14158
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 16:51:56,301 ERROR 14158 [-/127.0.0.1/-/1ms POST /upload?_csrf=_csrf] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14158
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 16:53:45,857 ERROR 14194 [-/127.0.0.1/-/12ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14194
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 16:58:41,158 ERROR 14226 [-/127.0.0.1/-/10ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14226
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:04:41,405 ERROR 14279 [-/127.0.0.1/-/11ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14279
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:10:59,178 ERROR 14336 [-/127.0.0.1/-/10ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14336
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:11:21,612 ERROR 14338 nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 1 times on pid:14338)
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 1 times on pid:14338)
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14338
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:11:35,575 ERROR 14338 nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 2 times on pid:14338)
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 2 times on pid:14338)
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14338
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:12:04,887 ERROR 14344 [-/127.0.0.1/-/10ms POST /upload] [controller.upload] error
+2019-12-16 17:12:04,888 ERROR 14344 [-/127.0.0.1/-/11ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14344
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:14:04,890 ERROR 14349 [-/127.0.0.1/-/10ms POST /upload] nodejs.ERR_STREAM_CANNOT_PIPEError: Cannot pipe, not readable
+    at WriteStream.Writable.pipe (_stream_writable.js:245:24)
+    at UploadController.upload (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/upload.js:38:42)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+name: "ERR_STREAM_CANNOT_PIPEError"
+pid: 14349
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:14:04,920 ERROR 14349 nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 1 times on pid:14349)
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 1 times on pid:14349)
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14349
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:14:25,456 ERROR 14349 [-/127.0.0.1/-/3ms POST /upload] nodejs.ERR_STREAM_CANNOT_PIPEError: Cannot pipe, not readable
+    at WriteStream.Writable.pipe (_stream_writable.js:245:24)
+    at UploadController.upload (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/upload.js:38:42)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+name: "ERR_STREAM_CANNOT_PIPEError"
+pid: 14349
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:14:25,460 ERROR 14349 nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 2 times on pid:14349)
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 2 times on pid:14349)
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14349
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:15:17,255 ERROR 14355 [-/127.0.0.1/-/10ms POST /upload] nodejs.ERR_STREAM_CANNOT_PIPEError: Cannot pipe, not readable
+    at WriteStream.Writable.pipe (_stream_writable.js:245:24)
+    at UploadController.upload (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/upload.js:38:42)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+name: "ERR_STREAM_CANNOT_PIPEError"
+pid: 14355
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:15:17,288 ERROR 14355 nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 1 times on pid:14355)
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png' (uncaughtException throw 1 times on pid:14355)
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14355
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:18:02,864 ERROR 14390 [-/127.0.0.1/-/12ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/Shared/Relocated Items/Security/javascripe/moto/app/public/uploads/fa7c0140566f0d1b2b6c801fc6775e9e.png"
+name: "ENOENTError"
+pid: 14390
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:55:09,303 ERROR 16770 [-/127.0.0.1/-/21ms POST /admin/login] nodejs.TypeError: this.app.error is not a function
+    at LoginController.login (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/login.js:20:21)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 16770
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 17:58:49,638 ERROR 16795 [-/127.0.0.1/-/21ms POST /admin/login] nodejs.TypeError: Cannot read property 'render' of undefined
+    at Application.error (/Users/Shared/Relocated Items/Security/javascripe/moto/app/extend/application.js:3:14)
+    at LoginController.login (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/login.js:20:21)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 16795
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 18:24:22,700 ERROR 16972 [-/127.0.0.1/-/18ms POST /admin/category/add/0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'desc' in 'field list'
+    at Query.Sequence._packetToError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `category`(`pid`, `createTime`, `createUserId`, `title`, `type`, `desc`, `content`) VALUES('0', '2019-12-16 18:24:22', '1', '测试菜单', '1', '请我的', '<p>王飞飞飞</p>')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'desc' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `category`(`pid`, `createTime`, `createUserId`, `title`, `type`, `desc`, `content`) VALUES('0', '2019-12-16 18:24:22', '1', '测试菜单', '1', '请我的', '<p>王飞飞飞</p>')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16972
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 18:25:06,939 ERROR 16972 [-/127.0.0.1/-/3ms POST /admin/category/add/0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'content' in 'field list'
+    at Query.Sequence._packetToError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `category`(`pid`, `createTime`, `createUserId`, `title`, `type`, `des`, `content`) VALUES('0', '2019-12-16 18:25:06', '1', '威风威风', '1', '二分法', '<p>王飞飞飞</p>')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'content' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `category`(`pid`, `createTime`, `createUserId`, `title`, `type`, `des`, `content`) VALUES('0', '2019-12-16 18:25:06', '1', '威风威风', '1', '二分法', '<p>王飞飞飞</p>')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16972
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 21:01:59,981 ERROR 16943 nodejs.ClusterClientNoResponseError: client no response in 7211039ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 16943
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-16 23:02:26,455 ERROR 16943 nodejs.ClusterClientNoResponseError: client no response in 7206293ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 16943
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 08:30:06,342 ERROR 16943 nodejs.ClusterClientNoResponseError: client no response in 33985934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 16943
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 09:22:09,632 ERROR 16943 nodejs.ClusterClientNoResponseError: client no response in 3103237ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 16943
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 15:17:45,630 ERROR 27164 [-/127.0.0.1/-/16ms POST /admin/category/update/9] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:30:15)
+    at IndexService.updateCategory (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:34:33)
+    at IndexController.updateCategory (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/index.js:76:50)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+
+pid: 27164
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 16:06:45,119 ERROR 27220 [-/127.0.0.1/-/4ms POST /admin/category/add/10] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/exception.tpl) [Line 5, Column 11]
+  unexpected token: !
+  unexpected token: !
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:542:21)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 27220
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 17:47:08,614 ERROR 28390 [-/127.0.0.1/-/13ms GET /admin/article/0] nodejs.TypeError: Cannot read property 'title' of null
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:56:35)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:12:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 28390
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 18:07:08,384 ERROR 29977 [-/127.0.0.1/-/23ms GET /admin/article/10] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/admin/article.tpl) [Line 36, Column 17]
+  unexpected token: %}
+  unexpected token: %}
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:542:21)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 29977
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-17 18:11:38,253 ERROR 29994 [-/127.0.0.1/-/5ms GET /admin/article/0] nodejs.TypeError: Cannot read property 'title' of null
+    at ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:25:33)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 29994
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 01:03:37,414 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 7207354ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:06:12,386 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 3714921ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:17:01,332 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 608910ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:19:28,250 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 126900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:21:30,190 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 81917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:28:21,134 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 370929ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:37:14,822 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 513676ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:42:12,731 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 257882ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 02:48:13,653 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 320897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:06:15,452 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 466883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:10:09,367 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 193899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:29:40,234 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 623919ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:40:09,149 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 588895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:47:10,050 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 380881ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:54:04,849 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 394784ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 03:56:58,776 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 133900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:05:16,705 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 457906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:16:55,614 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 658880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:21:33,552 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 257926ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:34:17,430 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 285923ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:36:23,350 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 105905ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:43:05,279 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 361905ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:50:52,221 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 426920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 04:57:20,872 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 368633ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:06:33,789 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 512899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:08:44,712 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 90900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:12:39,612 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 194873ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:19:15,519 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 375891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:29:19,461 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 563917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:35:49,369 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 349885ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:42:51,283 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 401897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:45:54,219 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 142920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 05:53:32,133 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 417891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 06:04:31,893 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 639741ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 06:08:05,817 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 173904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 06:12:57,763 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 251927ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 06:20:01,689 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 383908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 08:20:41,610 ERROR 27005 nodejs.ClusterClientNoResponseError: client no response in 7219908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 27005
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 11:54:16,419 ERROR 38913 [-/127.0.0.1/-/14ms POST /admin/category/add/15] nodejs.ReferenceError: moment is not defined
+    at CategoryController.postCategory (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/category.js:35:28)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:15)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+
+pid: 38913
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 14:34:23,959 ERROR 39310 [-/127.0.0.1/-/4ms GET /admin/article/15] nodejs.TypeError: Cannot read property 'title' of null
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:57:35)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39310
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 14:36:10,446 ERROR 39310 [-/127.0.0.1/-/3ms GET /admin/article/15] nodejs.TypeError: Cannot read property 'title' of null
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:57:35)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39310
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:02:44,045 ERROR 39531 [-/127.0.0.1/-/12ms GET /admin/article/0] nodejs.TypeError: Found non-callable @@iterator
+    at IndexService.getAllArticle (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:53:17)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:13:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39531
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:09:47,748 ERROR 39569 [-/127.0.0.1/-/12ms GET /admin/article/0] nodejs.ReferenceError: i is not defined
+    at IndexService.getAllArticle (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:44:28)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:13:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39569
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:10:56,309 ERROR 39574 [-/127.0.0.1/-/6ms GET /admin/article/15] nodejs.TypeError: Cannot read property 'title' of null
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:61:35)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39574
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:12:07,614 ERROR 39587 [-/127.0.0.1/-/12ms GET /admin/article/15] nodejs.TypeError: Cannot read property 'title' of null
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:61:35)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39587
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:12:22,397 ERROR 39587 [-/127.0.0.1/-/5ms GET /admin/article/15] nodejs.TypeError: Cannot read property 'title' of null
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:61:35)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39587
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:12:54,984 ERROR 39592 [-/127.0.0.1/-/12ms GET /admin/article/15] nodejs.ReferenceError: articles is not defined
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:58:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39592
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 15:13:06,400 ERROR 39595 [-/127.0.0.1/-/12ms GET /admin/article/15] nodejs.ReferenceError: article is not defined
+    at IndexService.getArticleByCid (/Users/Shared/Relocated Items/Security/javascripe/moto/app/service/admin/index.js:67:5)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async ArticleController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/article.js:15:18)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:9:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 39595
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-18 17:46:18,614 ERROR 40105 [-/127.0.0.1/-/22ms POST /admin/login] nodejs.TypeError: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type number
+    at invalidArrayBufferView (internal/crypto/cipher.js:103:10)
+    at Cipher.update (internal/crypto/cipher.js:161:11)
+    at crypt (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-cookies@2.3.0@egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-cookies@2.3.0@egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-cookies@2.3.0@egg-cookies/lib/cookies.js:104:55)
+    at LoginController.login (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/login.js:17:24)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 40105
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 09:57:20,193 ERROR 46997 [-/127.0.0.1/-/9ms GET /admin/index] nodejs.TypeError: this.ctx.service.admin.index.index is not a function
+    at IndexController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/index.js:7:49)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:11:15)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+
+pid: 46997
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 10:13:26,375 ERROR 47151 [-/127.0.0.1/-/18ms POST /admin/index/info/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''佛山麟盾商贸有限公司' WHERE `id` = '1'' at line 1
+    at Query.Sequence._packetToError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: UPDATE `webinfo` SET `title` = '佛山麟盾商贸有限公司1', `des` = '佛山麟盾商贸有限公司', '佛山麟盾商贸有限公司' WHERE `id` = '1'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''佛山麟盾商贸有限公司' WHERE `id` = '1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE `webinfo` SET `title` = '佛山麟盾商贸有限公司1', `des` = '佛山麟盾商贸有限公司', '佛山麟盾商贸有限公司' WHERE `id` = '1'"
+name: "ER_PARSE_ERRORError"
+pid: 47151
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 10:15:11,357 ERROR 47161 [-/127.0.0.1/-/15ms POST /admin/index/info/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''佛山麟盾商贸有限公司' WHERE `id` = '1'' at line 1
+    at Query.Sequence._packetToError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: UPDATE `webinfo` SET `title` = '佛山麟盾商贸有限公司111', `des` = '佛山麟盾商贸有限公司', '佛山麟盾商贸有限公司' WHERE `id` = '1'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''佛山麟盾商贸有限公司' WHERE `id` = '1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE `webinfo` SET `title` = '佛山麟盾商贸有限公司111', `des` = '佛山麟盾商贸有限公司', '佛山麟盾商贸有限公司' WHERE `id` = '1'"
+name: "ER_PARSE_ERRORError"
+pid: 47161
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 11:02:22,429 ERROR 47459 [-/127.0.0.1/-/11ms GET /admin/index] nodejs.TypeError: this.ctx.locals is not a function
+    at IndexController.index (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/index.js:9:31)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:11:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 47459
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 11:17:07,402 ERROR 47674 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.didLoad (/Users/Shared/Relocated Items/Security/javascripe/moto/app.js:19:17)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:42)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 47674
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 11:17:18,567 ERROR 47681 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.logger is not a function
+    at AppBootHook.didLoad (/Users/Shared/Relocated Items/Security/javascripe/moto/app.js:22:14)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+
+pid: 47681
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 11:17:28,129 ERROR 47701 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.logger is not a function
+    at AppBootHook.didLoad (/Users/Shared/Relocated Items/Security/javascripe/moto/app.js:22:14)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+
+pid: 47701
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 14:12:44,541 ERROR 48452 [-/127.0.0.1/-/17ms POST /admin/index/info/1] nodejs.ReferenceError: ctx is not defined
+    at IndexController.updateInfo (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/index.js:21:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:11:9)
+    at async /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 48452
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 14:17:02,492 ERROR 48484 [-/127.0.0.1/-/16ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/web/index.tpl)
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/web/nav.tpl
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/web/nav.tpl
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:33:11)
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:295:11)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:282:7)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:329:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 48484
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 14:17:16,356 ERROR 48492 [-/127.0.0.1/-/15ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/web/index.tpl)
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/web/nav.tpl
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/web/nav.tpl
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:33:11)
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:295:11)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:282:7)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:329:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 48492
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 14:17:55,807 ERROR 48499 [-/127.0.0.1/-/23ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/index.tpl)
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:33:11)
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:295:11)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:282:7)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:329:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 48499
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 14:27:56,156 ERROR 48499 [-/127.0.0.1/-/7ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/index.tpl)
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl
+  Error: template not found: /Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:33:11)
+    at createTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:295:11)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:282:7)
+    at handle (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:329:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 48499
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 15:52:57,740 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 542432ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 16:55:37,549 ERROR 52024 [-/127.0.0.1/-/2ms GET /admin/banner/0] nodejs.TypeError: Cannot read property 'renderView' of undefined
+    at render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-view@2.1.2@egg-view/app/extend/context.js:14:17)
+    at BannerController.postupdatebanner (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/banner.js:32:13)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:11:15)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 52024
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 16:58:01,650 ERROR 52035 [-/127.0.0.1/-/6ms GET /admin/banner/0] nodejs.TypeError: Cannot read property 'renderView' of undefined
+    at render (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-view@2.1.2@egg-view/app/extend/context.js:14:17)
+    at BannerController.postupdatebanner (/Users/Shared/Relocated Items/Security/javascripe/moto/app/controller/admin/banner.js:31:13)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at checkAuth (/Users/Shared/Relocated Items/Security/javascripe/moto/app/middleware/userauth.js:11:15)
+    at dispatch (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 52035
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 18:43:19,520 ERROR 52581 [-/127.0.0.1/-/7ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/index.tpl)
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 6, Column 49]
+  unexpected token: /
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 6, Column 49]
+  unexpected token: /
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:39:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:39:5
+    at RawTask.call (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/asap.js:40:19)
+    at flush (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "Template render error"
+pid: 52581
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 18:48:09,027 ERROR 52598 [-/127.0.0.1/-/11ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/index.tpl)
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 11, Column 65]
+  unexpected token: %}
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 11, Column 65]
+  unexpected token: %}
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:39:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:39:5
+    at RawTask.call (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/asap.js:40:19)
+    at flush (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "Template render error"
+pid: 52598
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 18:50:24,572 ERROR 52598 [-/127.0.0.1/-/5ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/index.tpl)
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 20, Column 11]
+  unknown block tag: endif
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 20, Column 11]
+  unknown block tag: endif
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:39:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:39:5
+    at RawTask.call (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/asap.js:40:19)
+    at flush (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "Template render error"
+pid: 52598
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 18:50:32,870 ERROR 52598 [-/127.0.0.1/-/4ms GET /] nodejs.Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/index.tpl)
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 20, Column 11]
+  unknown block tag: endif
+  Template render error: (/Users/Shared/Relocated Items/Security/javascripe/moto/app/view/index/nav.tpl) [Line 20, Column 11]
+  unknown block tag: endif
+    at Object._prettifyError (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:637:18), <anonymous>:39:11)
+    at /Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:39:5
+    at RawTask.call (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/asap.js:40:19)
+    at flush (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_asap@2.0.6@asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "Template render error"
+pid: 52598
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 19:20:06,350 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 893353ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 19:35:18,107 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 911756ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 19:52:00,445 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 1002335ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 20:07:03,986 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 883529ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 20:08:58,865 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 69910ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 20:10:53,728 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 69907ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-19 21:30:10,876 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 4757146ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 07:03:18,825 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 34387887ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 08:15:06,862 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 4307427ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 08:30:17,857 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 890956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 10:53:45,462 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 8607603ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 11:20:45,469 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 69869ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 13:25:14,437 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 69897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 15:27:28,808 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 7244442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 15:30:08,659 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 69904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 17:31:37,957 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 7244351ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 17:33:33,345 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 70393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-20 23:19:22,528 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 20614243ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-21 08:15:19,254 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 32156702ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-22 06:45:29,230 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 81009877ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-22 06:46:59,666 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 69684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-22 06:48:55,656 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 70990ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-22 18:46:57,164 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 42991569ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 08:45:11,096 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 50273690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 09:27:03,812 ERROR 51064 nodejs.ClusterClientNoResponseError: client no response in 2492422ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 51064
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 13:40:59,682 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 3267962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 18:10:32,704 ERROR 4591 [-/127.0.0.1/-/9ms GET /page/12] nodejs.ReferenceError: ctx is not defined
+    at HomeController.getParentId (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:22:19)
+    at HomeController.page (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:17:28)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 4591
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 18:47:03,017 ERROR 4778 [-/127.0.0.1/-/7ms GET /page/17] nodejs.TypeError: Cannot read property 'length' of null
+    at HomeController.page (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:20:20)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 4778
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 18:50:59,895 ERROR 4780 [-/127.0.0.1/-/5ms GET /page/17] nodejs.Template render error: (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/view/index/page.tpl) [Line 16, Column 85]
+  unexpected token: %}
+  unexpected token: %}
+    at Object._prettifyError (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at Template.render (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:542:21)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 4780
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 18:56:53,110 ERROR 4794 [-/127.0.0.1/-/4ms GET /page/10] nodejs.ReferenceError: ctx is not defined
+    at HomeController.getSubCategories (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:35:9)
+    at HomeController.page (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:16:33)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 4794
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 18:57:06,537 ERROR 4795 [-/127.0.0.1/-/8ms GET /page/10] nodejs.ReferenceError: categories is not defined
+    at HomeController.getSubCategories (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:35:20)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async HomeController.page (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:16:22)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 4795
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 18:57:08,323 ERROR 4795 [-/127.0.0.1/-/3ms GET /page/10] nodejs.ReferenceError: categories is not defined
+    at HomeController.getSubCategories (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:35:20)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async HomeController.page (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:16:22)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+
+pid: 4795
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 19:04:43,037 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 199951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 19:36:10,502 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 1867445ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 20:21:16,186 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 2685543ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 20:31:49,764 ERROR 4947 [-/127.0.0.1/-/11ms GET /category/15] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.category (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:35:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 4947
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 20:33:05,975 ERROR 4947 [-/127.0.0.1/-/5ms GET /category/15] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.category (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/controller/home.js:35:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async checkAuth (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/app/middleware/nav.js:6:5)
+    at async /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 4947
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-23 22:24:27,807 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 886787ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 04:28:45,080 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 7218376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 06:29:05,651 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 7220506ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 08:15:12,443 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 6366775ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 08:57:11,351 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 2518899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 09:27:09,057 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 1777677ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 09:29:21,980 ERROR 2318 nodejs.ClusterClientNoResponseError: client no response in 132920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2318
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:08:34,258 ERROR 5867 [-/127.0.0.1/-/1ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://123.57.56.25
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: SELECT * FROM `webinfo` WHERE `id` = 1 LIMIT 0, 1
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://123.57.56.25"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 5867
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:08:34,270 ERROR 5867 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://123.57.56.25
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://123.57.56.25"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 5867
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:08:39,379 ERROR 5890 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://123.57.56.25
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://123.57.56.25"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 5890
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:08:39,390 ERROR 5890 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://123.57.56.25
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: SELECT * FROM `webinfo` WHERE `id` = 1 LIMIT 0, 1
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://123.57.56.25"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 5890
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:08:50,111 ERROR 5919 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 5919
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:08:50,127 ERROR 5919 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: SELECT * FROM `webinfo` WHERE `id` = 1 LIMIT 0, 1
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 5919
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:09:43,804 ERROR 5943 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 5943
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:11:04,925 ERROR 5982 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: SELECT * FROM `webinfo` WHERE `id` = 1 LIMIT 0, 1
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 5982
+hostname: xuhanwendeMacBook-Pro.local
+
+2019-12-24 10:11:04,931 ERROR 5982 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Protocol._enqueue (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/Shared/Previously Relocated Items/Security/javascripe/moto/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 5982
+hostname: xuhanwendeMacBook-Pro.local
+

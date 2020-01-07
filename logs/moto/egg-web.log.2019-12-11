@@ -1,0 +1,28 @@
+2019-12-10 10:07:04,129 INFO 79129 [egg:logger] init all loggers with options: {"dir":"/Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"moto-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-10 10:07:04,145 INFO 79129 [egg-multipart] stream mode enable
+2019-12-10 10:07:04,168 INFO 79129 [egg-static] starting static serve /public/ -> /Users/Shared/Relocated Items/Security/javascripe/moto/app/public
+2019-12-10 10:07:04,169 INFO 79129 [egg-security] use csrf middleware
+2019-12-10 10:07:04,170 INFO 79129 [egg-security] use methodnoallow middleware
+2019-12-10 10:07:04,170 INFO 79129 [egg-security] use noopen middleware
+2019-12-10 10:07:04,170 INFO 79129 [egg-security] use nosniff middleware
+2019-12-10 10:07:04,171 INFO 79129 [egg-security] use xssProtection middleware
+2019-12-10 10:07:04,171 INFO 79129 [egg-security] use xframe middleware
+2019-12-10 10:07:04,171 INFO 79129 [egg-security] use dta middleware
+2019-12-10 10:07:04,171 INFO 79129 [egg-security] compose 7 middlewares into one security middleware
+2019-12-10 10:07:04,176 INFO 79129 [egg:core] dump config after load, 3ms
+2019-12-10 10:07:04,184 INFO 79129 [egg-watcher:application] watcher start success
+2019-12-10 10:07:04,188 INFO 79129 [egg:core] dump config after ready, 2ms
+2019-12-10 13:35:15,024 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-10 18:31:59,616 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-10 19:00:07,211 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-11 06:31:05,644 WARN 79129 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-11 06:31:05,646 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-11 08:15:06,220 WARN 79129 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-11 08:15:06,221 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-12 08:15:06,168 WARN 79129 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-12 08:15:06,202 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-12 08:45:15,348 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-12 09:26:52,362 WARN 79129 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-12 15:38:48,154 INFO 79129 [egg-logrotator] clean all log before 31 days
+2019-12-12 15:38:49,087 INFO 79129 [egg-logrotator] broadcast log-reload
+2019-12-12 15:38:49,087 INFO 79129 [egg-logrotator] rotate files success by DayRotator, files ["/Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/common-error.log -> /Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/common-error.log.2019-12-11","/Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/moto-web.log -> /Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/moto-web.log.2019-12-11","/Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/egg-web.log -> /Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/egg-web.log.2019-12-11","/Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/egg-schedule.log -> /Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/egg-schedule.log.2019-12-11","/Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/egg-agent.log -> /Users/Shared/Relocated Items/Security/javascripe/moto/logs/moto/egg-agent.log.2019-12-11"]

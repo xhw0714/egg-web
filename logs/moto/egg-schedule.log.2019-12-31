@@ -1,0 +1,9 @@
+2019-12-31 04:30:00,007 INFO 3189 [Job#15777378000015670352533692607] /www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2019-12-31 04:30:00,011 INFO 3189 [Job#15777378000015670352533692607] /www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 4ms
+2019-12-31 04:30:00,003 INFO 3094 [Timer] /www/wwwroot/moto/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86399999ms at 2020-01-01 04:30:00.002
+2020-01-01 00:00:00,002 INFO 3189 [Job#15778080000006372352528081158] /www/wwwroot/moto/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-01-01 00:00:00,003 INFO 3189 [Job#15778080000006372352528081158] /www/wwwroot/moto/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 1ms
+2020-01-01 00:00:00,001 INFO 3094 [Timer] /www/wwwroot/moto/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400000ms at 2020-01-02 00:00:00.001
+2020-01-01 00:00:01,002 INFO 3094 [Timer] /www/wwwroot/moto/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399998ms at 2020-01-02 00:00:01.000
+2020-01-01 00:00:01,003 INFO 3189 [Job#15778080010016372362539791998] /www/wwwroot/moto/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-01-01 00:00:01,004 INFO 3189 [Job#15778080010016372362539791998] /www/wwwroot/moto/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 1ms
